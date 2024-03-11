@@ -7,12 +7,12 @@ dot = Digraph()
 code = '''
 def suma(a,b):
     valor = a + b
-    print("el resultado de la suma es, " + valor)
+    print("el resultado de la suma es, " , valor)
 
-greet(2,5)
+suma(2,5)
 '''
 
-code = "3 + 2 * 4"
+#code = "3 + 2 * 4"
 
 
 def add_node(node, parent=None):
